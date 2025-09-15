@@ -1,7 +1,7 @@
 public class CompanyInfo {
 
     public static void main(String[] args) {
-        System.out.println("Smart Electronics");
+        System.out.println("Ivan Electronics");
         displayHours();
     }
 
