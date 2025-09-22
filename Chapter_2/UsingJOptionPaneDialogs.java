@@ -15,10 +15,11 @@ public class UsingJOptionPaneDialogs {
                     JOptionPane.YES_NO_OPTION);
 
             if (confirm == JOptionPane.YES_OPTION) {
-                JOptionPane.showMessageDialog(null, "Hello, " + name);                 
-                break; 
-            }
+                JOptionPane.showMessageDialog(null, "Hello, " + name);
+                break;  
+           }
         }
     }
 }
+
 
