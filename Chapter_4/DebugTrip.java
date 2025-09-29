@@ -5,35 +5,30 @@ public class DebugTrip {
     private static final String DEFAULT_CITY = "Atlanta";
     private static final String DEFAULT_MODE = "car";
 
-    // Constructor with one argument
     public DebugTrip(String destination) {
-        this(destination, DEFAULT_CITY, DEFAULT_MODE); // Calls the third constructor
+        this(destination, DEFAULT_CITY, DEFAULT_MODE); 
     }
 
-    // Constructor with two arguments
     public DebugTrip(String destination, String departure) {
-        this(destination, departure, DEFAULT_MODE); // Calls the third constructor
+        this(destination, departure, DEFAULT_MODE); 
     }
 
-    // Constructor with three arguments
     public DebugTrip(String destination, String departure, String mode) {
         this.destination = destination;
         this.departure = departure;
         this.mode = mode;
     }
 
-    // Getter for destination
     public String getDestination() {
         return destination;
     }
 
-    // Getter for departure city
     public String getDepartureCity() {
         return departure;
     }
 
-    // Getter for mode of transportation
     public String getMode() {
         return mode;
     }
 }
+
